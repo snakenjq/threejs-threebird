@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+#label {
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  margin: auto;
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+  width: auto;
+  height: auto;
+  line-height: 0.8em;
+  border: 4px solid black;
+  padding: 0.2em;
+}
+
+#world {
+  background: #fafaff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#instructions {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin: auto;
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #b75505;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.lightInstructions {
+  color: #b59b63;
+  font-size: 0.8em;
+}
+
+#credits {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #b59b63;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-align: center;
+}
+#credits a {
+  color: #b59b63;
+}
